@@ -13,8 +13,6 @@
 		CAFBB64519FA431200BF9418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB64319FA431200BF9418 /* InfoPlist.strings */; };
 		CAFBB64719FA431200BF9418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB64619FA431200BF9418 /* main.m */; };
 		CAFBB64B19FA431200BF9418 /* AllAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */; };
-		CAFBB64E19FA431200BF9418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB64C19FA431200BF9418 /* Main.storyboard */; };
-		CAFBB65119FA431200BF9418 /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB65019FA431200BF9418 /* AllViewController.m */; };
 		CAFBB65319FA431200BF9418 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB65219FA431200BF9418 /* Images.xcassets */; };
 		CAFBB65A19FA431200BF9418 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB65919FA431200BF9418 /* XCTest.framework */; };
 		CAFBB65B19FA431200BF9418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63A19FA431100BF9418 /* Foundation.framework */; };
@@ -44,9 +42,6 @@
 		CAFBB64819FA431200BF9418 /* Where-Are-You-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Where-Are-You-Prefix.pch"; sourceTree = "<group>"; };
 		CAFBB64919FA431200BF9418 /* AllAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllAppDelegate.h; sourceTree = "<group>"; };
 		CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllAppDelegate.m; sourceTree = "<group>"; };
-		CAFBB64D19FA431200BF9418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CAFBB64F19FA431200BF9418 /* AllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
-		CAFBB65019FA431200BF9418 /* AllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
 		CAFBB65219FA431200BF9418 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CAFBB65819FA431200BF9418 /* Where-Are-YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where-Are-YouTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFBB65919FA431200BF9418 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +74,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CABFFF7F19FA44AD0000E941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CABFFF8019FA44C70000E941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CABFFF8119FA44CC0000E941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CABFFF8219FA44D30000E941 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB64919FA431200BF9418 /* AllAppDelegate.h */,
+				CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */,
+				CAFBB65219FA431200BF9418 /* Images.xcassets */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		CABFFF8319FA44D90000E941 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
 		CAFBB62E19FA431100BF9418 = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +145,11 @@
 		CAFBB64019FA431200BF9418 /* Where-Are-You */ = {
 			isa = PBXGroup;
 			children = (
-				CAFBB64919FA431200BF9418 /* AllAppDelegate.h */,
-				CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */,
-				CAFBB64C19FA431200BF9418 /* Main.storyboard */,
-				CAFBB64F19FA431200BF9418 /* AllViewController.h */,
-				CAFBB65019FA431200BF9418 /* AllViewController.m */,
-				CAFBB65219FA431200BF9418 /* Images.xcassets */,
+				CABFFF7F19FA44AD0000E941 /* Models */,
+				CABFFF8019FA44C70000E941 /* Views */,
+				CABFFF8119FA44CC0000E941 /* Controllers */,
+				CABFFF8319FA44D90000E941 /* SDK */,
+				CABFFF8219FA44D30000E941 /* Tool */,
 				CAFBB64119FA431200BF9418 /* Supporting Files */,
 			);
 			path = "Where-Are-You";
@@ -231,7 +263,6 @@
 			files = (
 				CAFBB65319FA431200BF9418 /* Images.xcassets in Resources */,
 				CAFBB64519FA431200BF9418 /* InfoPlist.strings in Resources */,
-				CAFBB64E19FA431200BF9418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFBB64B19FA431200BF9418 /* AllAppDelegate.m in Sources */,
-				CAFBB65119FA431200BF9418 /* AllViewController.m in Sources */,
 				CAFBB64719FA431200BF9418 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +311,6 @@
 				CAFBB64419FA431200BF9418 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CAFBB64C19FA431200BF9418 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAFBB64D19FA431200BF9418 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		CAFBB66219FA431200BF9418 /* InfoPlist.strings */ = {
@@ -457,6 +479,7 @@
 				CAFBB66B19FA431200BF9418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAFBB66C19FA431200BF9418 /* Build configuration list for PBXNativeTarget "Where-Are-YouTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				CAFBB66E19FA431200BF9418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
