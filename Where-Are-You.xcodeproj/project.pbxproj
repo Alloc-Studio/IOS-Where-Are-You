@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFBB63B19FA431100BF9418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63A19FA431100BF9418 /* Foundation.framework */; };
+		CAFBB63D19FA431200BF9418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63C19FA431200BF9418 /* CoreGraphics.framework */; };
+		CAFBB63F19FA431200BF9418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63E19FA431200BF9418 /* UIKit.framework */; };
+		CAFBB64519FA431200BF9418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB64319FA431200BF9418 /* InfoPlist.strings */; };
+		CAFBB64719FA431200BF9418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB64619FA431200BF9418 /* main.m */; };
+		CAFBB64B19FA431200BF9418 /* AllAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */; };
+		CAFBB64E19FA431200BF9418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB64C19FA431200BF9418 /* Main.storyboard */; };
+		CAFBB65119FA431200BF9418 /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB65019FA431200BF9418 /* AllViewController.m */; };
+		CAFBB65319FA431200BF9418 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB65219FA431200BF9418 /* Images.xcassets */; };
+		CAFBB65A19FA431200BF9418 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB65919FA431200BF9418 /* XCTest.framework */; };
+		CAFBB65B19FA431200BF9418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63A19FA431100BF9418 /* Foundation.framework */; };
+		CAFBB65C19FA431200BF9418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB63E19FA431200BF9418 /* UIKit.framework */; };
+		CAFBB66419FA431200BF9418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAFBB66219FA431200BF9418 /* InfoPlist.strings */; };
+		CAFBB66619FA431200BF9418 /* Where_Are_YouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBB66519FA431200BF9418 /* Where_Are_YouTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFBB65D19FA431200BF9418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFBB62F19FA431100BF9418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFBB63619FA431100BF9418;
+			remoteInfo = "Where-Are-You";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFBB63719FA431100BF9418 /* Where-Are-You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where-Are-You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBB63A19FA431100BF9418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAFBB63C19FA431200BF9418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAFBB63E19FA431200BF9418 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAFBB64219FA431200BF9418 /* Where-Are-You-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Where-Are-You-Info.plist"; sourceTree = "<group>"; };
+		CAFBB64419FA431200BF9418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAFBB64619FA431200BF9418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFBB64819FA431200BF9418 /* Where-Are-You-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Where-Are-You-Prefix.pch"; sourceTree = "<group>"; };
+		CAFBB64919FA431200BF9418 /* AllAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllAppDelegate.h; sourceTree = "<group>"; };
+		CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllAppDelegate.m; sourceTree = "<group>"; };
+		CAFBB64D19FA431200BF9418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFBB64F19FA431200BF9418 /* AllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
+		CAFBB65019FA431200BF9418 /* AllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
+		CAFBB65219FA431200BF9418 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAFBB65819FA431200BF9418 /* Where-Are-YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where-Are-YouTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBB65919FA431200BF9418 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAFBB66119FA431200BF9418 /* Where-Are-YouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Where-Are-YouTests-Info.plist"; sourceTree = "<group>"; };
+		CAFBB66319FA431200BF9418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAFBB66519FA431200BF9418 /* Where_Are_YouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Where_Are_YouTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFBB63419FA431100BF9418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB63D19FA431200BF9418 /* CoreGraphics.framework in Frameworks */,
+				CAFBB63F19FA431200BF9418 /* UIKit.framework in Frameworks */,
+				CAFBB63B19FA431100BF9418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBB65519FA431200BF9418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB65A19FA431200BF9418 /* XCTest.framework in Frameworks */,
+				CAFBB65C19FA431200BF9418 /* UIKit.framework in Frameworks */,
+				CAFBB65B19FA431200BF9418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFBB62E19FA431100BF9418 = {
+			isa = PBXGroup;
+			children = (
+				CAFBB64019FA431200BF9418 /* Where-Are-You */,
+				CAFBB65F19FA431200BF9418 /* Where-Are-YouTests */,
+				CAFBB63919FA431100BF9418 /* Frameworks */,
+				CAFBB63819FA431100BF9418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFBB63819FA431100BF9418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB63719FA431100BF9418 /* Where-Are-You.app */,
+				CAFBB65819FA431200BF9418 /* Where-Are-YouTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFBB63919FA431100BF9418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB63A19FA431100BF9418 /* Foundation.framework */,
+				CAFBB63C19FA431200BF9418 /* CoreGraphics.framework */,
+				CAFBB63E19FA431200BF9418 /* UIKit.framework */,
+				CAFBB65919FA431200BF9418 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFBB64019FA431200BF9418 /* Where-Are-You */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB64919FA431200BF9418 /* AllAppDelegate.h */,
+				CAFBB64A19FA431200BF9418 /* AllAppDelegate.m */,
+				CAFBB64C19FA431200BF9418 /* Main.storyboard */,
+				CAFBB64F19FA431200BF9418 /* AllViewController.h */,
+				CAFBB65019FA431200BF9418 /* AllViewController.m */,
+				CAFBB65219FA431200BF9418 /* Images.xcassets */,
+				CAFBB64119FA431200BF9418 /* Supporting Files */,
+			);
+			path = "Where-Are-You";
+			sourceTree = "<group>";
+		};
+		CAFBB64119FA431200BF9418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB64219FA431200BF9418 /* Where-Are-You-Info.plist */,
+				CAFBB64319FA431200BF9418 /* InfoPlist.strings */,
+				CAFBB64619FA431200BF9418 /* main.m */,
+				CAFBB64819FA431200BF9418 /* Where-Are-You-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFBB65F19FA431200BF9418 /* Where-Are-YouTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB66519FA431200BF9418 /* Where_Are_YouTests.m */,
+				CAFBB66019FA431200BF9418 /* Supporting Files */,
+			);
+			path = "Where-Are-YouTests";
+			sourceTree = "<group>";
+		};
+		CAFBB66019FA431200BF9418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB66119FA431200BF9418 /* Where-Are-YouTests-Info.plist */,
+				CAFBB66219FA431200BF9418 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFBB63619FA431100BF9418 /* Where-Are-You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBB66919FA431200BF9418 /* Build configuration list for PBXNativeTarget "Where-Are-You" */;
+			buildPhases = (
+				CAFBB63319FA431100BF9418 /* Sources */,
+				CAFBB63419FA431100BF9418 /* Frameworks */,
+				CAFBB63519FA431100BF9418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Where-Are-You";
+			productName = "Where-Are-You";
+			productReference = CAFBB63719FA431100BF9418 /* Where-Are-You.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFBB65719FA431200BF9418 /* Where-Are-YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBB66C19FA431200BF9418 /* Build configuration list for PBXNativeTarget "Where-Are-YouTests" */;
+			buildPhases = (
+				CAFBB65419FA431200BF9418 /* Sources */,
+				CAFBB65519FA431200BF9418 /* Frameworks */,
+				CAFBB65619FA431200BF9418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFBB65E19FA431200BF9418 /* PBXTargetDependency */,
+			);
+			name = "Where-Are-YouTests";
+			productName = "Where-Are-YouTests";
+			productReference = CAFBB65819FA431200BF9418 /* Where-Are-YouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFBB62F19FA431100BF9418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = All;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alloc-Studio";
+				TargetAttributes = {
+					CAFBB65719FA431200BF9418 = {
+						TestTargetID = CAFBB63619FA431100BF9418;
+					};
+				};
+			};
+			buildConfigurationList = CAFBB63219FA431100BF9418 /* Build configuration list for PBXProject "Where-Are-You" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFBB62E19FA431100BF9418;
+			productRefGroup = CAFBB63819FA431100BF9418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFBB63619FA431100BF9418 /* Where-Are-You */,
+				CAFBB65719FA431200BF9418 /* Where-Are-YouTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFBB63519FA431100BF9418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB65319FA431200BF9418 /* Images.xcassets in Resources */,
+				CAFBB64519FA431200BF9418 /* InfoPlist.strings in Resources */,
+				CAFBB64E19FA431200BF9418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBB65619FA431200BF9418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB66419FA431200BF9418 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFBB63319FA431100BF9418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB64B19FA431200BF9418 /* AllAppDelegate.m in Sources */,
+				CAFBB65119FA431200BF9418 /* AllViewController.m in Sources */,
+				CAFBB64719FA431200BF9418 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBB65419FA431200BF9418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBB66619FA431200BF9418 /* Where_Are_YouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFBB65E19FA431200BF9418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFBB63619FA431100BF9418 /* Where-Are-You */;
+			targetProxy = CAFBB65D19FA431200BF9418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFBB64319FA431200BF9418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFBB64419FA431200BF9418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAFBB64C19FA431200BF9418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFBB64D19FA431200BF9418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFBB66219FA431200BF9418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFBB66319FA431200BF9418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFBB66719FA431200BF9418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAFBB66819FA431200BF9418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFBB66A19FA431200BF9418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where-Are-You/Where-Are-You-Prefix.pch";
+				INFOPLIST_FILE = "Where-Are-You/Where-Are-You-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAFBB66B19FA431200BF9418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where-Are-You/Where-Are-You-Prefix.pch";
+				INFOPLIST_FILE = "Where-Are-You/Where-Are-You-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAFBB66D19FA431200BF9418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Where-Are-You.app/Where-Are-You";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where-Are-You/Where-Are-You-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Where-Are-YouTests/Where-Are-YouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAFBB66E19FA431200BF9418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Where-Are-You.app/Where-Are-You";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where-Are-You/Where-Are-You-Prefix.pch";
+				INFOPLIST_FILE = "Where-Are-YouTests/Where-Are-YouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFBB63219FA431100BF9418 /* Build configuration list for PBXProject "Where-Are-You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBB66719FA431200BF9418 /* Debug */,
+				CAFBB66819FA431200BF9418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBB66919FA431200BF9418 /* Build configuration list for PBXNativeTarget "Where-Are-You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBB66A19FA431200BF9418 /* Debug */,
+				CAFBB66B19FA431200BF9418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFBB66C19FA431200BF9418 /* Build configuration list for PBXNativeTarget "Where-Are-YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBB66D19FA431200BF9418 /* Debug */,
+				CAFBB66E19FA431200BF9418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFBB62F19FA431100BF9418 /* Project object */;
+}
